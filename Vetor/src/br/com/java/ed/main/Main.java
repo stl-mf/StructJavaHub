@@ -6,7 +6,7 @@ import br.com.java.ed.implementation.Supermarket;
 import br.com.java.ed.implementation.SupermarketArray;
 
 public class Main { //classe executavel
-	private final static int SIZE = 3;
+	private final static int SIZE = 3; //tamanho fixo do vetor (desvantagem)
 	
 	public static void main (String[] args) { //método main
 		Scanner scanner = new Scanner(System.in); //ler o teclado que o usuario vai indicar
